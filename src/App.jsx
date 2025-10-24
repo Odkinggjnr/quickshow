@@ -9,7 +9,7 @@ import MyBookings from './pages/MyBookings'
 import Favorite from './pages/Favorite'
 import Footer from './components/Footer'
 import {Toaster} from 'react-hot-toast'
-
+import './index.css'
 const App = () => {
 
   const isAdminRoute = useLocation().pathname.startsWith('/admin');
